@@ -1,114 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>个人LOGO</title>
-      <link href="/2020/03/21/%E4%BA%BALOGO/"/>
-      <url>/2020/03/21/%E4%BA%BALOGO/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/jzwb-0.png" alt="upload successful"></p><h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><a id="more"></a><p>待写…</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> jzwb </tag>
-            
-            <tag> jzwbxx </tag>
-            
-            <tag> logo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hexo+GitHub搭建个人博客</title>
-      <link href="/2020/03/21/exo-GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2020/03/21/exo-GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Ready-准备工作"><a href="#Ready-准备工作" class="headerlink" title="Ready 准备工作"></a>Ready 准备工作</h2><p>在开始前，你需要准备以下工作</p><ul><li>github账号</li><li>nodejs、npm环境，了解基础知识</li><li>git客户端</li><li>个人域名（可选）</li></ul><h3 id="创建-Github-仓库"><a href="#创建-Github-仓库" class="headerlink" title="创建 Github 仓库"></a>创建 Github 仓库</h3><p>使用 <code>{username}.github.io</code> 作为仓库名称，初始化时带上README创建</p><img style="height:500px" src="\images\jzwb-3.png"/><a id="more"></a><p>创建后在仓库setting看到可以通过域名访问</p><img style="height:300px" src="\images\jzwb-5.png"/><h3 id="Hexo安装、配置"><a href="#Hexo安装、配置" class="headerlink" title="Hexo安装、配置"></a>Hexo安装、配置</h3><p>Hexo 版本 : 4.2.0，根据官方教程安装、运行，即可看到效果</p><h3 id="Hexo上传到Github"><a href="#Hexo上传到Github" class="headerlink" title="Hexo上传到Github"></a>Hexo上传到Github</h3><p>已提前对git进行配置，如第一次使用也是上网搜索一下</p><p>对Hexo的<code>_config.yml</code>配置文件进行修改</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:zowbman&#x2F;zowbman.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>先后执行<code>hexo clean</code> <code>hexo g</code> <code>hexo d</code>命令（具体命令意思查看官方文档），提交到github后，再访问域名即可看到效果</p><h3 id="域名绑定（可选）"><a href="#域名绑定（可选）" class="headerlink" title="域名绑定（可选）"></a>域名绑定（可选）</h3><p>通过ping命令，获取github域名对应的ip地址</p><img style="height:100px" src="\images\jzwb-6.png"/><p>再把自己域名解析此IP（这里我使用的是阿里云域名）</p><p>在仓库根目录中创建CNAME文件，把需要绑定的域名填入（注意填入的域名需要）</p><p>最后访问绑定的域名即可看到效果…</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>个人LOGO</title>
+    <url>/2020/03/21/%E4%B8%AA%E4%BA%BALOGO/</url>
+    <content><![CDATA[<p><img src="/images/jzwb-0.png" alt="upload successful"></p>
+<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><a id="more"></a>
+
+<p>待写…</p>
+]]></content>
+      <tags>
+        <tag>jzwb</tag>
+        <tag>jzwbxx</tag>
+        <tag>logo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo+GitHub搭建个人博客</title>
+    <url>/2020/03/21/Hexo-GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="Ready-准备工作"><a href="#Ready-准备工作" class="headerlink" title="Ready 准备工作"></a>Ready 准备工作</h2><p>在开始前，你需要准备以下工作</p>
+<ul>
+<li>github账号</li>
+<li>nodejs、npm环境，了解基础知识</li>
+<li>git客户端</li>
+<li>个人域名（可选）</li>
+</ul>
+<h3 id="创建-Github-仓库"><a href="#创建-Github-仓库" class="headerlink" title="创建 Github 仓库"></a>创建 Github 仓库</h3><p>使用 <code>{username}.github.io</code> 作为仓库名称，初始化时带上README创建</p>
+<img style="height:500px" src="\images\jzwb-3.png"/>
+
+<a id="more"></a>
+
+<p>创建后在仓库setting看到可以通过域名访问</p>
+<img style="height:300px" src="\images\jzwb-5.png"/>
+
+<h3 id="Hexo安装、配置"><a href="#Hexo安装、配置" class="headerlink" title="Hexo安装、配置"></a>Hexo安装、配置</h3><p>Hexo 版本 : 4.2.0，根据官方教程安装、运行，即可看到效果</p>
+<h3 id="Hexo上传到Github"><a href="#Hexo上传到Github" class="headerlink" title="Hexo上传到Github"></a>Hexo上传到Github</h3><p>已提前对git进行配置，如第一次使用也是上网搜索一下</p>
+<p>对Hexo的<code>_config.yml</code>配置文件进行修改</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:zowbman&#x2F;zowbman.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p>先后执行<code>hexo clean</code> <code>hexo g</code> <code>hexo d</code>命令（具体命令意思查看官方文档），提交到github后，再访问域名即可看到效果</p>
+<h3 id="域名绑定（可选）"><a href="#域名绑定（可选）" class="headerlink" title="域名绑定（可选）"></a>域名绑定（可选）</h3><p>通过ping命令，获取github域名对应的ip地址</p>
+<img style="height:100px" src="\images\jzwb-6.png"/>
+
+<p>再把自己域名解析此IP（这里我使用的是阿里云域名）</p>
+<p>在仓库根目录中创建CNAME文件，把需要绑定的域名填入（注意填入的域名需要）</p>
+<p>最后访问绑定的域名即可看到效果…</p>
+]]></content>
       <categories>
-          
-          <category> Hexo </category>
-          
+        <category>Hexo</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> github </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>进驻Hexo...开始记录</title>
-      <link href="/2020/03/21/%E8%BF%9B%E9%A9%BBHexo%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95/"/>
-      <url>/2020/03/21/%E8%BF%9B%E9%A9%BBHexo%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95/</url>
-      
-        <content type="html"><![CDATA[<p>开篇就只是简单用纯文本进行描述吧!</p><p>最近这段时间不知道为何，一直想要记录写什么，生活也好工作也好，有地方落落脚。</p><p>想过要不自己造轮子搭建个博客吧，但是想想就好了，毕竟作为一个后端，前端真的在目前我这个阶段不省心省力，最后就放弃了。</p><p>其实以前已经有关注道Hexo，真的是缘分，那么就搞起吧…</p><p>经过一天的简单了解、搭建、配置，也看到效果了，满足我目前的需要，后续就一边记录一边再看.</p><p>感谢Hexo提供强大的帮助!</p><p><img src="/images/jzwb-01.gif" alt="upload successful"></p><a id="more"></a>]]></content>
-      
-      
+      <tags>
+        <tag>hexo</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>进驻Hexo...开始记录</title>
+    <url>/2020/03/21/%E8%BF%9B%E9%A9%BBHexo%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>开篇就只是简单用纯文本进行描述吧!</p>
+<p>最近这段时间不知道为何，一直想要记录写什么，生活也好工作也好，有地方落落脚。</p>
+<p>想过要不自己造轮子搭建个博客吧，但是想想就好了，毕竟作为一个后端，前端真的在目前我这个阶段不省心省力，最后就放弃了。</p>
+<p>其实以前已经有关注道Hexo，真的是缘分，那么就搞起吧…</p>
+<p>经过一天的简单了解、搭建、配置，也看到效果了，满足我目前的需要，后续就一边记录一边再看.</p>
+<p>感谢Hexo提供强大的帮助!</p>
+<p><img src="/images/jzwb-01.gif" alt="upload successful"></p>
+<a id="more"></a>]]></content>
       <categories>
-          
-          <category> 啰里啰嗦 </category>
-          
+        <category>啰里啰嗦</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 小白 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Test</title>
-      <link href="/2020/03/21/Test/"/>
-      <url>/2020/03/21/Test/</url>
-      
-        <content type="html"><![CDATA[<center>我就想测试一下...</center>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 小白 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/03/20/hello-world/"/>
-      <url>/2020/03/20/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><a id="more"></a><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>小白</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Test</title>
+    <url>/2020/03/21/Test/</url>
+    <content><![CDATA[<center>我就想测试一下...</center>]]></content>
+      <tags>
+        <tag>小白</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/03/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<a id="more"></a>
+
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
 </search>
